@@ -1,18 +1,3 @@
-const Modal = {
-  open() {
-      //abrir modal
-      //adicionar a class active modal 
-      document.querySelector('.background')
-      .classList.add('active')
-  },
-  close () {
-     //fehar modal
-     //remover a class active modal
-  document.querySelector('.background')
-      .classList.remove('active')
-  }
-}
-
 function insert (num) {
   let number = document.getElementById('result').innerHTML;
   document.getElementById('result').innerHTML = number + num;
